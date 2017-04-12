@@ -1,0 +1,24 @@
+--for one time import fresh process : 
+
+/*Optimove_DB*/
+TRUNCATE TABLE [optitrack].[Categories]
+TRUNCATE TABLE [optitrack].[CategoryValues]
+TRUNCATE TABLE [optitrack].[ClickCategory]
+TRUNCATE TABLE [optitrack].[CustomerEvents]
+TRUNCATE TABLE [optitrack].[CustomerEvents_TMP]
+TRUNCATE TABLE [optitrack].[EventClicks]
+TRUNCATE TABLE [optitrack].[EventClicks_TMP]
+TRUNCATE TABLE [optitrack].[Events]
+TRUNCATE TABLE [optitrack].[Events_TMP]
+
+/*Profiles*/
+TRUNCATE TABLE [optitrack].[ActionCategories]
+TRUNCATE TABLE [optitrack].[ActionCategories_InProcess]
+TRUNCATE TABLE [optitrack].[CategoryValues]
+TRUNCATE TABLE [optitrack].[ClickEvents]
+TRUNCATE TABLE [optitrack].[Config]
+TRUNCATE TABLE [optitrack].[OptimoveAlias]
+TRUNCATE TABLE [optitrack].[PiwikEvents]
+TRUNCATE TABLE [optitrack].[PiwikIdentity]
+TRUNCATE TABLE [optitrack].[PiwikSession]
+TRUNCATE TABLE [optitrack].[URLs]
